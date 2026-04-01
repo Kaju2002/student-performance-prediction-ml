@@ -17,10 +17,10 @@ https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+datas
 
 ### 📁 Dataset Components
 
-* 👤 **studentInfo** – student demographics & final results
-* 📝 **studentAssessment** – assessment scores
-* 💻 **studentVle** – online learning activity
-* 📅 **studentRegistration** – registration & withdrawal info
+- 👤 **studentInfo** – student demographics & final results
+- 📝 **studentAssessment** – assessment scores
+- 💻 **studentVle** – online learning activity
+- 📅 **studentRegistration** – registration & withdrawal info
 
 ---
 
@@ -28,14 +28,14 @@ https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+datas
 
 A complete preprocessing pipeline was developed:
 
-* ✔ Data cleaning (fixing data types, handling missing values)
-* ✔ Feature engineering (scores, clicks, activity, submissions)
-* ✔ Merging multiple datasets into one
-* ✔ Encoding categorical variables
-* ✔ Feature selection using correlation analysis
-* ✔ Train-test split (80/20 with stratification)
-* ✔ Feature scaling (for KNN model)
-* ✔ SMOTE applied **only on training data** (to avoid data leakage)
+- ✔ Data cleaning (fixing data types, handling missing values)
+- ✔ Feature engineering (scores, clicks, activity, submissions)
+- ✔ Merging multiple datasets into one
+- ✔ Encoding categorical variables
+- ✔ Feature selection using correlation analysis
+- ✔ Train-test split (80/20 with stratification)
+- ✔ Feature scaling (for KNN model)
+- ✔ SMOTE applied **only on training data** (to avoid data leakage)
 
 ---
 
@@ -54,7 +54,7 @@ Four supervised learning algorithms were implemented:
 
 | Model            | Accuracy   | Precision  | Recall     | F1 Score   | ROC-AUC    |
 | ---------------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| ⚡ XGBoost        | **89.52%** | 91.77%     | **88.06%** | **89.87%** | **96.72%** |
+| ⚡ XGBoost       | **89.52%** | 91.77%     | **88.06%** | **89.87%** | **96.72%** |
 | 🌲 Random Forest | 89.32%     | 92.12%     | 87.25%     | 89.62%     | 96.43%     |
 | 📍 KNN           | 88.85%     | **93.22%** | 85.07%     | 88.96%     | 95.81%     |
 | 🌳 Decision Tree | 88.39%     | 90.74%     | 86.87%     | 88.76%     | 93.83%     |
@@ -63,35 +63,32 @@ Four supervised learning algorithms were implemented:
 
 ## 🏆 Key Findings
 
-* ⚡ **XGBoost achieved the best overall performance**
-* 🌲 Random Forest showed strong and stable results
-* 📍 KNN achieved the highest precision (most reliable predictions)
-* 📉 Decision Tree had lower performance but is easier to interpret
+- ⚡ **XGBoost achieved the best overall performance**
+- 🌲 Random Forest showed strong and stable results
+- 📍 KNN achieved the highest precision (most reliable predictions)
+- 📉 Decision Tree had lower performance but is easier to interpret
 
 ---
 
 ## 🔍 Insights
 
-* 📊 Academic performance (scores) is the strongest predictor
-* 💻 Student engagement (clicks, activity) is critical
-* 🚨 Early withdrawal is a key indicator of dropout
+- 📊 Academic performance (scores) is the strongest predictor
+- 💻 Student engagement (clicks, activity) is critical
+- 🚨 Early withdrawal is a key indicator of dropout
 
 ---
 
 ## 🧠 Technologies Used
 
-* Python 🐍
-* Pandas & NumPy
-* Scikit-learn
-* XGBoost
-* Matplotlib & Seaborn
-
-
-
----
+- Python 🐍
+- Pandas & NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib & Seaborn
 
 ## 📁 Project Structure
 
+```
 student-performance-prediction/
 │
 ├── data/
@@ -113,15 +110,14 @@ student-performance-prediction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
----
+```
 
 ## 👥 Team Members
 
-* IT22224002 – U Kajanthan
-* IT22251664 – H.M.N.T. Bandara
-* IT22267740 – K.T. Olivea
-* IT22211750 – W.N.N. de Silva
+- IT22224002 – U Kajanthan
+- IT22251664 – H.M.N.T. Bandara
+- IT22267740 – K.T. Olivea
+- IT22211750 – W.N.N. de Silva
 
 ---
 
@@ -141,10 +137,10 @@ Ensemble methods such as **XGBoost and Random Forest** provide the best performa
 
 ## ⭐ Highlights
 
-* ✔ Complete preprocessing pipeline
-* ✔ No data leakage (SMOTE applied correctly)
-* ✔ Multiple model comparison
-* ✔ Strong evaluation using multiple metrics
+- ✔ Complete preprocessing pipeline
+- ✔ No data leakage (SMOTE applied correctly)
+- ✔ Multiple model comparison
+- ✔ Strong evaluation using multiple metrics
 
 ---
 
