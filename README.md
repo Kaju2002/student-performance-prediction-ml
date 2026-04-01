@@ -86,6 +86,8 @@ Four supervised learning algorithms were implemented:
 * XGBoost
 * Matplotlib & Seaborn
 
+
+
 ---
 
 ## 📁 Project Structure
@@ -108,10 +110,11 @@ student-performance-prediction/
 │   └── report.pdf
 │
 ├── docs/ (optional)
-│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+---
 
 ## 👥 Team Members
 
