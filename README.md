@@ -123,7 +123,7 @@ student-performance-prediction/
 
 ## 🎥 Project Demo
 
-🔗 (Add your YouTube video link here)
+🔗 https://youtu.be/vcDwpEBB3Jg
 
 ---
 
